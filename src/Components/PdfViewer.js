@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import cv from "../files/CV_Ihor_Vasyliev.pdf"
+import React from 'react';
+import cv from "../files/Ihor_Vasyliev_CV.pdf"
 
 const PDFViewer = () => {
  return (

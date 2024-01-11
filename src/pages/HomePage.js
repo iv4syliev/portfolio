@@ -1,12 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../style/css/style.css';
 import '../style/css/bootstrap.css';
 import FooterComponent from '../Components/FooterComponent';
-import Menu from '../Components/MenuComponent';
-import image from '../img/banner/ava.png';
-import banner from '../img/banner/banner.jpg';
-import banner2 from '../img/banner/banner-2.jpg';
+import image from '../img/about-us.png';
 
+import CarouselComponent from '../Components/CaruselComponent';
 
 function HomePage() {
     return (
@@ -41,41 +39,24 @@ function HomePage() {
                 <div class="slider_inner">
                     <div class="container">
                     <h2>My projects:</h2>
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style={{}}>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src={banner} alt="First slide" />
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src={banner2} alt="Second slide" />
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-                        </div>
-                        </div>
-                        </section>
+                    <CarouselComponent />
+                    </div>
+                  </div>
+            </section>
 
-                        <section class="services">
+            <section class="services">
                 <div class="services_inner">
                     <div class="container">
                     <h2> How can I help you?</h2>
-        <ul>
-            <li>working with React, Angular</li>
-            <li>working with api/json, parsing data</li>
-            <li>sending & recieving requests to database</li>
-            <li>develop and debug web applications</li>
-        </ul>
+                      <ul>
+                          <li>working with React, Angular</li>
+                          <li>working with api/json, parsing data</li>
+                          <li>sending & recieving requests to database</li>
+                          <li>develop and debug web applications</li>
+                      </ul>
                     </div>
-                        </div>
-                        </section>
+                </div>
+              </section>
             
     
     <FooterComponent/>

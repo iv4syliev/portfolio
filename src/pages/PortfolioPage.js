@@ -1,9 +1,12 @@
 //projects developed, description
-import React, { useState } from 'react';
+import React from 'react';
+import CardList from '../Components/CardListComponent';
 
 function PortfolioPage() {
     return (
-<div></div>
+<div class="container">
+      <CardList />
+</div>
     );
 }
 

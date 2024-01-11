@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.cbe7d1eb.css",
+    "main.js": "/portfolio/static/js/main.e83ab695.js",
+    "static/js/787.0894cbc5.chunk.js": "/portfolio/static/js/787.0894cbc5.chunk.js",
+    "static/media/banner-2.jpg": "/portfolio/static/media/banner-2.8c37e1d45f9984149076.jpg",
+    "static/media/banner.jpg": "/portfolio/static/media/banner.6385d3785c9d4ac7a7ff.jpg",
+    "static/media/CV_Ihor_Vasyliev.pdf": "/portfolio/static/media/CV_Ihor_Vasyliev.3e09d143e83212bd6729.pdf",
+    "static/media/ava.png": "/portfolio/static/media/ava.379c3f8268dfe59ad6ef.png",
+    "index.html": "/portfolio/index.html",
+    "main.cbe7d1eb.css.map": "/portfolio/static/css/main.cbe7d1eb.css.map",
+    "main.e83ab695.js.map": "/portfolio/static/js/main.e83ab695.js.map",
+    "787.0894cbc5.chunk.js.map": "/portfolio/static/js/787.0894cbc5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cbe7d1eb.css",
+    "static/js/main.e83ab695.js"
+  ]
+}

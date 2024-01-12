@@ -1,27 +1,45 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import $ from 'jquery'
+import { Carousel } from 'react-bootstrap';
 import banner from '../img/portfolio/p1.jpg';
 import banner2 from '../img/portfolio/p2.jpg';
 import banner3 from '../img/portfolio/p3.jpg';
 
 const CarouselComponent = () => {
-  return (
-    <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
-      <div className="carousel-inner">
-        <div className="carousel-item active">
-          <img className="d-block w-100" src={banner} alt="Project 1" />
-        </div>
-        <div className="carousel-item">
-          <img className="d-block w-100" src={banner2} alt="Project 2" />
-        </div>
-        <div className="carousel-item">
-          <img className="d-block w-100" src={banner3} alt="Project 3" />
-        </div>
-      </div>
-      
-      <script src="../libraries/jquery-3.2.1.min.js"></script>
-      <link rel="stylesheet" href="../libraries/bootstrap.js" />
-    </div>
-  );
+    // useEffect(() => {
+    //     $('#myCarousel').carousel({
+    //         interval: 2000,
+    //         pause: 'hover',
+    //     });
+    // }, []);
+
+    return (
+        <Carousel>
+            <Carousel.Item>
+                <img className="d-block w-100" src={banner} alt="First slide" />
+                <Carousel.Caption>
+                    <h3>Los Angeles</h3>
+                    <p>LA is always so much fun!</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+
+            <Carousel.Item>
+                <img className="d-block w-100" src={banner2} alt="Second slide" />
+                <Carousel.Caption>
+                    <h3>Chicago</h3>
+                    <p>Thank you, Chicago!</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+
+            <Carousel.Item>
+                <img className="d-block w-100" src={banner3} alt="Third slide" />
+                <Carousel.Caption>
+                    <h3>New York</h3>
+                    <p>We love the Big Apple!</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+        </Carousel>
+    );
 };
 
 export default CarouselComponent;
